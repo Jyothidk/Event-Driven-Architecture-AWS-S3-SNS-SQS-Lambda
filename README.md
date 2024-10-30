@@ -35,7 +35,7 @@ Sample usecase:
 
 ![image](https://github.com/user-attachments/assets/c40286a9-60c4-4bf4-b13f-5c0deb8b7d2e)
 
-![image](https://github.com/user-attachments/assets/d00fd88b-80ce-4231-b288-65306234c30d)
+![image](https://github.com/user-attachments/assets/10dbae79-b4e0-4164-8d0e-1105b72f0a0a)
 
 ![image](https://github.com/user-attachments/assets/53e11427-449c-4ed8-9656-bf5720701972)
 
