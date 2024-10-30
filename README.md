@@ -16,14 +16,28 @@ Sample usecase:
 2. Crete SNS Topic standard
 3. Create SQS queues (2 queues)
 4. Create Lambda function (2 Lambda functions)
+5. Update Policies for SNS, SQS and Lambda
 - Update SNS access policy (advanced)-because S3 bucket and SQS Queue need acccess on SNS
 - Update SQS access policy for 2 queues (advanced)-because SNS Topic and Lambda need acccess on SQS
 - Update lambda role permisions - need access to cloudwatch and SQS
-5. connect all components
+6. connect all components
 - Create event notification in S3 bucket properties which notifies SNS (connection from S3 to SNS)
 - Create subscriptions, add 'Subscription filter policy' in both subscriptions of SNS (connection from SNS to SQS)
 - Create Lambda triggers in SQS for both Queues(connection from SQS to Lambda)
 
-6. Now test the setup by uploading files into S3 bucket and check cloudwatch logs
+7. Now test the setup by uploading files into S3 bucket and check cloudwatch logs
 - Put objects
 - Copy objects
+
+![image](https://github.com/user-attachments/assets/19bc38ec-177f-4ccf-bfe9-62321b528cae)
+
+![image](https://github.com/user-attachments/assets/c95e27ef-ccb7-4617-8fd2-a85986a39d42)
+
+![image](https://github.com/user-attachments/assets/c40286a9-60c4-4bf4-b13f-5c0deb8b7d2e)
+
+![image](https://github.com/user-attachments/assets/d00fd88b-80ce-4231-b288-65306234c30d)
+
+![image](https://github.com/user-attachments/assets/53e11427-449c-4ed8-9656-bf5720701972)
+
+![image](https://github.com/user-attachments/assets/8bd26323-4093-4df3-83b4-4331eade5799)
+
