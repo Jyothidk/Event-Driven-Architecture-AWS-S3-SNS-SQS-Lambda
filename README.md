@@ -20,7 +20,7 @@ Sample usecase:
 - Update SNS access policy (advanced)-because S3 bucket and SQS Queue need acccess on SNS
 - Update SQS access policy for 2 queues (advanced)-because SNS Topic and Lambda need acccess on SQS
 - Update lambda role permisions - need access to cloudwatch and SQS
-6. connect all components
+6. Connect all components
 - Create event notification in S3 bucket properties which notifies SNS (connection from S3 to SNS)
 - Create subscriptions, add 'Subscription filter policy' in both subscriptions of SNS (connection from SNS to SQS)
 - Create Lambda triggers in SQS for both Queues(connection from SQS to Lambda)
