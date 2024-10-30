@@ -13,7 +13,7 @@ Sample usecase:
 
 ## Steps:
 
-1. Create S3 bucket with default settings.
+1. Create S3 bucket.
 2. Crete SNS Topic standard
 3. Create SQS queues (2 queues)
 4. Create Lambda function (2 Lambda functions)
