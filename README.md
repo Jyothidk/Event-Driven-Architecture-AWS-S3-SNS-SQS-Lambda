@@ -8,7 +8,8 @@ Sample usecase:
 3. Event stream: AWS SQS
 4. Event consumer: AWS lambda
 
-![image](https://github.com/user-attachments/assets/82b76f92-3125-4e94-929c-a9e6d86c4e33)
+![image](https://github.com/user-attachments/assets/4c3de10f-d207-48a0-bbd5-b9730d96c2b1)
+
 
 ## Steps:
 
