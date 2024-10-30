@@ -8,4 +8,5 @@ Sample usecase:
 3. Event stream: AWS SQS
 4. Event consumer: AWS lambda
 
-This repo contains SNS access policy, SQS access policy, SNS subscription filter policy and IAM lambda policies used in this implementation.
+![image](https://github.com/user-attachments/assets/82b76f92-3125-4e94-929c-a9e6d86c4e33)
+
